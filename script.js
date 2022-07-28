@@ -9,18 +9,10 @@ const removeClass = document.querySelector('#shrink-me')
 removeClass.classList.remove('big')
 
 // 3
-const resultOne = document.getElementsByClassName("list")[0].innerHTML;
-console.log(resultOne);
-
-const resultTwo = document.getElementsByClassName("list")[1].innerHTML;
-console.log(resultTwo);
-
-const resultThree = document.getElementsByClassName("list")[2].innerHTML;
-console.log(resultThree);
-
-
-const result = document.getElementsByTagName("li").textContent;
-console.log(result);
+const listNames = document.getElementsByTagName("li");
+console.log(listNames[0].innerText);
+console.log(listNames[1].innerText);
+console.log(listNames[2].innerText);
 
 // 4
 
